@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 function Playground() {
   return (
-    <div>Hello World</div>
+    <div>This is my playground</div>
   )
 }
 
