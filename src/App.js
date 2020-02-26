@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-let stories = [
-  {label: "welcome", title: "Short Stories the fun way", author: "Jeff Bartenbach", shortbody: "Pointed Stories is a new way to enjoy short stories. It’s quite simply a feed of the best stories, from the classics to contemporary writers."},
+let stories2 = [
+  {image: "welcome-image.png", label: "welcome", title: "Short Stories the fun way", author: "Jeff Bartenbach", shortbody: "Pointed Stories is a new way to enjoy short stories. It’s quite simply a feed of the best stories, from the classics to contemporary writers."},
   {label: "Short story", title: "A Great Title for the Ages", author: "John Doe", shortbody:"This is an example of a card without an image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec viverra odio."}
 ]
 

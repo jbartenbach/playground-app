@@ -32,12 +32,11 @@ body {
   margin-bottom: 32px;
 }
 .card-no-image {
-  height: 62px;
+  height: 82px;
 }
 .card-image {
   height: 250px;
   border-radius: 12px 12px 0px 0px;
-  background-image: url('./assets/img/welcome-image.png');
   background-size: 150% auto;
   background-position: center top;
   background-repeat: no-repeat;
@@ -45,23 +44,26 @@ body {
 .card-text-container {
   padding:24px;
 }
-.card-label {
+.card-label, h6 {
   font-size: 14px;
   font-weight: 600;
   color: #6C7989;
   text-transform: uppercase;
+  margin-top: 0px;
   margin-bottom: 8px;
 }
-.card-title {
+.card-title, h2 {
   font-size: 32px;
   font-weight: 800;
-  margin-bottom: 8px;
+  margin-top:0px;
+  margin-bottom: 4px;
 }
 .card-author {
   margin-bottom: 24px;
 }
 .card-short-body {
   line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (min-width: 600px) {
